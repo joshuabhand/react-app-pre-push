@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
-class NameTag extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
+class NameTag extends Component {
   render() {
     return (
-        <textarea rows='2' class='pretty-border' text>
-          {this.props.greeting + ", " + this.props.name + "!"}
-        </textarea>
+        <textarea readOnly={true} rows='2' className='pretty-border' value={this.props.nameTag} />
     );
   }
 }
