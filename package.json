@@ -5,14 +5,21 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "pre-push": "0.1.1"
   },
   "scripts": {
+    "lint": "echo RUN LINT",
+    "test2": "echo RUN TEST",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "pre-push": [
+    "lint",
+    "test2"
+  ],
   "eslintConfig": {
     "extends": "react-app"
   },
