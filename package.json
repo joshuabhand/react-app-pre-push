@@ -10,15 +10,14 @@
   },
   "scripts": {
     "lint": "echo RUN LINT",
-    "test2": "echo RUN TEST",
+    "test": "echo RUN TEST",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "pre-push": [
     "lint",
-    "test2"
+    "test"
   ],
   "eslintConfig": {
     "extends": "react-app"
