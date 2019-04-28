@@ -2,6 +2,8 @@ This project demonstrates the module pre-push.
 
 ## Install Pre-push
 
+"npm install" the new module added to package.json
+
 Windows users:
 1) Modify node_modules/pre-push/index.js<br />
 -Add .cmd extension to 'npm' references.<br />
